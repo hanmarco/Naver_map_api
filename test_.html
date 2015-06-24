@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	margin:0px;
+}
+</style>
+<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="n4qxj1gqf5rml14"></script>
+<script type="text/javascript" src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=12699e18a9035e5fab48e985ea975998">
+</script>
+</head>
+
+<body>
+<a href="http://www.probrain.co.kr/?module=file&act=procFileDownload&file_srl=2276&sid=11e32604d42faba94ff369380d6e6df4" class="dropbox-saver"></a>
+
+
+
+<div id="container"></div>
+<script>
+var options = {
+    files: [
+        // You can specify up to 100 files.
+        {'url': 'http://www.probrain.co.kr/files/attach/binaries/332/467/b353f0ad7bb477b726697160b2e2c366', 'filename': 'asdf.xls'}
+        // ...
+    ]
+	};
+var button = Dropbox.createSaveButton(options);
+document.getElementById("container").appendChild(button);
+</script>
+
+</body>
+</html>

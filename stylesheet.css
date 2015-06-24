@@ -1,0 +1,52 @@
+.image{
+	width:480px;
+	height:190px;
+}
+image{
+	color:white;
+}
+body{
+margin:0px;
+}
+
+div#first{
+padding: 10px;
+width: 480px;
+/* height: 300px; */
+/* border: 1px solid; */
+margin: auto;
+margin-top: 20px;
+background: rgba(179, 179, 179, 0.19);
+}
+#submit_btn_1{
+float:right;
+}
+#logo{
+margin-top: 20px;
+	text-align:center;
+	border-bottom:1px solid black;
+}
+#logo2{width: 200px;
+margin: 10px;
+}
+
+footer{
+margin-top: 15px;
+background:rgb(184, 171, 171);
+}
+#footer_box{
+
+	margin-top: 30px;
+	text-align:center;
+	margin : auto;
+}
+#footer_content{
+	width:500px;
+	margin: auto;
+	text-align:left;
+	color: white;
+	padding-bottom:10px;
+}
+p{
+text-align: center;
+}
